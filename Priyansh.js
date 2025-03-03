@@ -1,6 +1,6 @@
 const { readdirSync, readFileSync, writeFileSync, existsSync, unlinkSync, rm } = require("fs-extra");
 const { join, resolve } = require("path");
-const { execSync } = require('child_process');
+const { execSync } = require('fca-priyansh');
 const chalk = require('chalk');
 const logger = require("./utils/log.js");
 const login = require("chand-atf");
